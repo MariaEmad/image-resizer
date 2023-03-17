@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resize image</title>
+    <link rel="stylesheet" href="resize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <img src="pngegg.png" class="fa-solid" alt="">
+            <input type="file" name="" id="photo-upload" accept="images/*" hidden>
+            <p>Browser file to upload</p>
+        </div>
+        <div class="content">
+
+        <div class="row sizes">
+            <div class="column width">
+                <label for="width">width</label>
+                <input type="number" name="" id="width">
+            </div>
+            <div class="column height">
+                <label for="height">height</label>
+                <input type="number" name="" id="height">
+            </div>
+        </div>
+        <div class="row chechBox">
+            <div class="coulmn ratio">
+                <input type="checkbox" name="" id="ratio" checked>
+                <label for="ratio">Lock aspect ratio</label>
+            </div>
+            <div class="coulmn quality">
+                <input type="checkbox" name="" id="quality">
+                <label for="quality">Reduice quality</label>
+            </div>
+        </div>
+        <button class="download-btn" id="download-btn">Download</button>
+    </div>
+
+    </div>
+    <!-- <script src="js.js"></script> -->
+    <script src="resize.js"></script>
+</body>
+</html>

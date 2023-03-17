@@ -1,0 +1,14 @@
+The createObjectURL() method creates a DOMString containing a URL representing the object given in the parameter of the method. The new object URL represents the specified File object or Blob object.
+
+Note: The URL lifetime is tied to the document in which it was created.
+
+Syntax:
+
+const url = URL.createObjectURL(object);
+
+=========================================================
+getContentxt() method returns a drawing context on the canavas
+=============================================================
+drawImage(image,x-coordinate, y-coordnate,width,height)
+==============================================================
+toDAtaURL() returns a url of the canavas image
